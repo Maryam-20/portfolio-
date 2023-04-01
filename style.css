@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    outline: 1px solid red;
+}
+
+
+/* Nav styling */
+
+
+#navbar{
+    display: flex;
+    gap: 80%;
+    border: 2px solid white;
+    background-color: #fff;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display: flex;
+    gap: 48rem;
+    margin-top: 25px;
+}
+#navbar h3{
+    font-family: sans-serif;
+    font-size: 20px;  
+    font-weight: 800;
+    color: darkblue;
+    margin-left: 124px;
+}
+#navbar span{
+    color: #F59E0B;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+/* Main Styling */
+
+
+main{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-top: 160px;
+}
+#p_Child_grid p{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left:124PX;
+    line-height: 59px;
+}
+#p_Child_grid span{
+    color: rgb(245, 158, 11);
+    text-decoration: underline;
+}
+#img_Child_grid img{
+    max-width: 30vw;
+    margin-left: 129px;
+    margin-top: 90px;
+}
+#p_Child_grid button{
+    width:14vw;
+    height:7vh;
+    border: 1px solid darkblue;
+    border-radius: 6px;
+    background-color: darkblue;
+    margin: 30px 120px;
+}
+#p_Child_grid a{
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+ } 
+
+
+/* About me styling */
+
+
+#About_me_section{
+    /* margin-top: 200px; */
+}
+#about_grid{
+    /* margin-top: 400px; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#child_grid_1 img{
+    max-width: 27vw;
+    margin-left: 139px;
+    margin-top: 80px;
+}
+#child_grid_2{
+    margin-right: 22px;
+}
+#child_grid_2 #About_me{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(245, 158, 11);
+}
+#About_me span{
+    color: #181670;
+}
+#child_grid_2 p{
+    font-family: sans-serif;
+    line-height: 48px;
+    font-size: 18px;
+}
+.get_in_touch{
+    color:rgb(245, 158, 11);
+    font-weight: 700;
+}
+.Francis{
+    color: rgb(245, 158, 11);
+    text-decoration: underline;
+    font-weight: 700;
+}
+.Trezon{
+    color: darkblue;
+    font-weight: 700;
+}
+#child_grid_2 button{
+    width: 14vw;
+    height: 7vh;
+    border: 1px solid darkblue;
+    border-radius: 6px;
+    background-color: darkblue;
+    margin: 30px 0px;
+}
+#child_grid_2 a{
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#Designer{
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+    padding: 16px;
+}
+#Designer h3{
+    margin-top: 13px;
+    font-weight: 600;
+}
+#vertical_line{
+    border: 1px solid darkblue;
+    height: 4vw;
+    margin: 0px 12px;
+}
+#cert{
+    width: 100%;
+}
+.cert{
+    display: grid;
+    margin: 90px auto;
+    grid-template-columns: 50% 50%   ;
+    width: 80%;
+}
+
+.cert1{
+    width: 36vw;
+    margin-bottom: 30px;
+}
+.cert2{
+    width: 36vw;
+}
+.cert3{
+    width: 36vw;
+    height: 52vh;
+}
+#past_experience h3{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-text-stroke: 1px #181670;
+    -webkit-text-fill-color: white;
+}
+.experience_p1{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    text-align: center;
+}
+#past_experience button{
+    margin-top: 25px;
+    margin-left: 625px;
+    border: 1px solid #181670;
+    background-color: #fff;
+    width: 20vw;
+    height: 8vh;
+    /* padding: 29px; */
+}
+.experience_a{
+    color: #181670;
+    font-size: 20px;
+    font-weight: 500;
+}
+.experience_p2{
+    font-family: sans-serif;
+    margin: 42px 39px;
+    font-size: 20px;
+}
+#experience_grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 23px 136px;
+    gap: 3rem;
+    width: 80%;
+}
+#experience_gridchild1{
+    border: 1px solid #F59E0B;
+    border-radius: 1rem;
+}
+#experience_gridchild2{
+    border: 1px solid #181670;
+    border-radius: 1rem;
+}
+#experience_grid img{
+    width: 5vw;
+    margin: 10px 19px;
+}
+#experience_grid span{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+#experience_gridchild1 hr{
+    margin-left:  27px;
+    color: #F59E0B;
+    max-width: 33vw;
+}
+#experience_gridchild2 hr{
+    margin-left:  27px;
+    color:#181670;
+    max-width: 33vw;
+}
+#experience_grid p{
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-left: 35px;
+    line-height: 48px;
+    font-size: 18px;
+}
+
+
+/* Project styling */
+
+
+.vector_img1{
+    max-width: 9vw;
+    position: absolute;
+    left: 30rem;
+    
+}
+.vector_img2{
+    max-width: 9vw;
+    position: absolute;
+    left: 76rem;
+}
+#e-commerce_flex{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 90%;
+    margin: auto;
+    gap: 9rem;
+}
+ #slide{
+    width: 40vw;
+    margin-top: 70px;
+}
+#record{
+    width: 38vw;
+    margin-top: 70px;
+}
+#project h3{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(245, 158, 11);
+    text-align: center;
+}
+#project h3 span{
+    color: #181670;
+}
+#project p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#e-commerce_flex p{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 2rem;
+    margin-top: 50px;
+}
+#e-commerce_flex button{
+    border: 1px solid #181670;
+    color: #181670;
+    background-color: #fff;
+    width: 12vw;
+    height: 5vh;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#e-commerce_flex i{
+    max-width:18vw;
+    color: #181670;
+}
+#skill_img{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    width: 40%;
+    margin: auto;
+    gap: 3rem;
+}
+figure img{
+    width: 3vw;
+}
+#My_skill p{
+    font-size: 14px;
+    /* margin: 70px 40px; */
+}
+
+
+/* Contact Styling  */
+
+
+#Contact_me h3{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 59px;
+    text-align: center;
+    color: #181670;
+    margin: 50px 0px;
+}
+#Contact_me p{
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 0px;
+}
+#Contact_me strong{
+    color: #F59E0B;
+}
+#handles{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+#footer h3{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+@media screen and  (max-width:900px) {
+    nav{
+        
+    }
+}

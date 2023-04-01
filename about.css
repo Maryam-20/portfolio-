@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav styling */
+#navbar{
+    border: 2px solid white;
+    background-color: #fff;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display: flex;
+    gap: 48rem;
+    margin-top: 25px;
+}
+nav h3{
+    font-family: sans-serif;
+    font-size: 20px;  
+    font-weight: 800;
+    color: darkblue;
+    margin-left: 124px;
+}
+nav span{
+    color: #F59E0B;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+
+/* About me styling */
+
+
+#About_me_section{
+    margin-top: 170px;
+}
+#about_grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#child_grid_1 img{
+    max-width: 27vw;
+    margin-left: 139px;
+    margin-top: 80px;
+}
+#child_grid_2{
+    margin-right: 22px;
+}
+#child_grid_2 #About_me{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(245, 158, 11);
+}
+#About_me span{
+    color: #181670;
+}
+#child_grid_2 p{
+    font-family: sans-serif;
+    line-height: 48px;
+    font-size: 18px;
+}
+.get_in_touch{
+    color:rgb(245, 158, 11);
+    font-weight: 700;
+}
+.Francis{
+    color: rgb(245, 158, 11);
+    text-decoration: underline;
+    font-weight: 700;
+}
+.Trezon{
+    color: darkblue;
+    font-weight: 700;
+}
+#child_grid_2 button{
+    width: 14vw;
+    height: 7vh;
+    border: 1px solid darkblue;
+    border-radius: 6px;
+    background-color: darkblue;
+    margin: 30px 0px;
+}
+#child_grid_2 a{
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    /* margin: 60px; */
+}
+#Designer{
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+    padding: 16px;
+}
+#Designer h3{
+    margin-top: 13px;
+    font-weight: 600;
+}
+#vertical_line{
+    border: 1px solid darkblue;
+    height: 4vw;
+    /* background-color: darkblue; */
+    margin: 0px 12px;
+}
+#cert{
+    width: 100%;
+}
+.cert{
+    display: grid;
+    margin: 90px auto;
+    grid-template-columns: 50% 50%   ;
+    width: 80%;
+}
+
+.cert1{
+    width: 36vw;
+    margin-bottom: 30px;
+}
+.cert2{
+    width: 36vw;
+}
+.cert3{
+    width: 36vw;
+    height: 52vh;
+}
+#past_experience h3{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-text-stroke: 1px #181670;
+    -webkit-text-fill-color: white;
+}
+.experience_p1{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    text-align: center;
+}
+#past_experience button{
+    margin-top: 25px;
+    /* justify-self: center; */
+    margin-left: 625px;
+    border: 1px solid #181670;
+    background-color: #fff;
+    width: 20vw;
+    height: 8vh;
+    /* padding: 29px; */
+}
+.experience_a{
+    color: #181670;
+    font-size: 20px;
+    font-weight: 500;
+}
+.experience_p2{
+    font-family: sans-serif;
+    margin: 42px 39px;
+    font-size: 20px;
+    /* line-break: anywhere; */
+}
+#experience_grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 23px 136px;
+    gap: 3rem;
+    /* justify-content: center; */
+    width: 80%;
+    /* border: 2px solid red; */
+}
+#experience_gridchild1{
+    border: 1px solid #F59E0B;
+    border-radius: 1rem;
+    /* box-sizing: border-box; */
+}
+#experience_gridchild2{
+    border: 1px solid #181670;
+    border-radius: 1rem;
+}
+#experience_grid img{
+    width: 5vw;
+    margin: 10px 19px;
+}
+#experience_grid span{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    /* text-decoration: underline; */
+}
+#experience_gridchild1 hr{
+    margin-left:  27px;
+    color: #F59E0B;
+    /* margin-bottom: 52px; */
+    max-width: 33vw;
+}
+#experience_gridchild2 hr{
+    margin-left:  27px;
+    color:#181670;
+    /* margin-bottom: 52px; */
+    max-width: 33vw;
+}
+#experience_grid p{
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-left: 35px;
+    line-height: 48px;
+    font-size: 18px;
+}

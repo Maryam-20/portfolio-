@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    /* outline: 1px solid red; */
+}
+
+/* Nav styling */
+#navbar{
+    border: 2px solid white;
+    background-color: #fff;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display: flex;
+    gap: 48rem;
+    margin-top: 25px;
+}
+nav h3{
+    font-family: sans-serif;
+    font-size: 20px;  
+    font-weight: 800;
+    color: darkblue;
+    margin-left: 124px;
+}
+nav span{
+    color: #F59E0B;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.vector_img1{
+    max-width: 9vw;
+    position: absolute;
+    left: 30rem;
+    
+}
+.vector_img2{
+    max-width: 9vw;
+    position: absolute;
+    left: 76rem;
+}
+#e-commerce_flex{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 90%;
+    margin: auto;
+    gap: 9rem;
+}
+ #slide{
+    width: 40vw;
+    margin-top: 70px;
+}
+#record{
+    width: 38vw;
+    margin-top: 70px;
+}
+#project h3{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(245, 158, 11);
+    text-align: center;
+}
+#project h3 span{
+    color: #181670;
+}
+#project p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#e-commerce_flex p{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 2rem;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+#e-commerce_flex button{
+    border: 1px solid #181670;
+    color: #181670;
+    background-color: #fff;
+    width: 12vw;
+    height: 5vh;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* padding: 9px; */
+}
+#e-commerce_flex i{
+    max-width:18vw;
+    color: #181670;
+}
+#skill_img{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    width: 40%;
+    margin: auto;
+    gap: 3rem;
+    /* justify-content: center; */
+    /* flex-flow:column wrap; */
+}
+figure img{
+    width: 3vw;
+}
+#My_skill p{
+    margin: 40px 100px;
+    /* text-align: center; */
+}
