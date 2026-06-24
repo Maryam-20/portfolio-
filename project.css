@@ -2,28 +2,31 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    /* outline: 1px solid red; */
 }
 
 /* Nav styling */
 #navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     border: 2px solid white;
     background-color: #fff;
     height: 10vh;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 nav{
     display: flex;
     gap: 48rem;
-    margin-top: 25px;
 }
-nav h3{
+#navbar div h3{
     font-family: sans-serif;
     font-size: 20px;  
     font-weight: 800;
-    color: darkblue;
-    margin-left: 124px;
+    color: black;
+    margin: 15px;
 }
 nav span{
     color: #F59E0B;
@@ -32,22 +35,27 @@ nav ul{
     display: flex;
     list-style-type: none;
     gap: 5rem;
+    margin: 15px;
 }
 a{
     text-decoration: none;
     color: black;
     font-family: sans-serif;
 }
+a:hover{
+    color: black;
+}
 .vector_img1{
     max-width: 9vw;
     position: absolute;
-    left: 30rem;
+    left: 25rem;
     
 }
+
 .vector_img2{
     max-width: 9vw;
     position: absolute;
-    left: 76rem;
+    right: 5rem;
 }
 #e-commerce_flex{
     display: grid;
@@ -68,7 +76,7 @@ a{
     font-family: sans-serif;
     font-weight: 800;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-top: 120px;
     color: rgb(245, 158, 11);
     text-align: center;
 }
@@ -88,7 +96,6 @@ a{
     font-size: 17px;
     line-height: 2rem;
     margin-top: 50px;
-    /* text-align: center; */
 }
 #e-commerce_flex button{
     border: 1px solid #181670;
@@ -100,7 +107,6 @@ a{
     font-weight: 500;
     margin-left: 20px;
     margin-top: 20px;
-    /* padding: 9px; */
 }
 #e-commerce_flex i{
     max-width:18vw;
@@ -112,13 +118,10 @@ a{
     width: 40%;
     margin: auto;
     gap: 3rem;
-    /* justify-content: center; */
-    /* flex-flow:column wrap; */
 }
 figure img{
     width: 3vw;
 }
 #My_skill p{
     margin: 40px 100px;
-    /* text-align: center; */
 }
